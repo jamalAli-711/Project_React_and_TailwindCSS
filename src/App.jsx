@@ -8,6 +8,7 @@ import { ProjectsSection } from "./components/ProjectsSection"
 import { Toaster } from "./components/ui/toaster"
 import { Footer } from "./components/Footer"
 import { ContactSection } from "./components/ContactSection"
+import CVTemplate from "./pages/CVTemplate"
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
     <Route  path="/skills" element={<SkillsSection/>} />
     <Route  path="/projects" element={<ProjectsSection/>} />
     <Route  path="/contact" element={<ContactSection/>} />
+    <Route  path="/cvi" element={<CVTemplate/>} />
     {/* <Route path="*" element={NotFound}/> */}
    </Routes>
    <Footer/>

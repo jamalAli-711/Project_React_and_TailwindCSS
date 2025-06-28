@@ -10,6 +10,7 @@ const navItems = [
   { name: "Skills", href: "skills" },
   { name: "Projects", href: "projects" },
   { name: "Contact", href: "Contact" },
+  { name: "cvi", href: "cvi" },
 ];
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,14 +27,14 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
+        "fixed w-full z-40 transition-all duration-300 print:hidden",
         isScrolled
           ? "py-3 bg-background/40 backdrop-blur-md shadow-xs "
           : "py-5"
       )}>
               <ThemeToggle/>
 
-      <div className="container flex items-center justify-between">
+      <div className="print:hidden container flex items-center justify-between">
         <a
           href="/"
           className="text-xl font-bold text-primary flex items-center">
