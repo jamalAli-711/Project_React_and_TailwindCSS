@@ -28,7 +28,7 @@ export default function CVTemplate() {
     {
       title: "موزع مواد غذائية",
       company: " المؤسسة الوطنية لصناعة المواد الغذائية",
-      period: "2022 - الحاضر",
+      period: "2023 - الحاضر",
       responsibilities: [
         "توزيع المواد الغذائية وفق معايير الجودة والسلامة الغذائية",
         "التنسيق مع الموردين والعملاء لضمان تلبية الطلبات",
@@ -38,7 +38,7 @@ export default function CVTemplate() {
     },
     {
       title: "مساعد موزع",
-      company: "  بهارت الإكليل",
+      company: "  بهارت اكليل الجبل",
       period: "2019 - 2021",
       responsibilities: [
         "مساعدة في عمليات التوزيع والتسليم اليومية",
@@ -78,11 +78,11 @@ export default function CVTemplate() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-2 px-4 sm:px-6" dir="rtl">
-      <div className="max-w-5xl mx-auto">
+    <div className="min-h-screen w-full bg-white py-2 px-2 sm:px-6" dir="rtl">
+      <div className="w-full mx-auto">
         <button 
         //   onClick={handlePrint}
-          className=" print:hidden bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 mx-auto"
+          className=" print:hidden bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-semibold py-3 px-4 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 mx-auto"
         >
           طباعة السيرة الذاتية
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -92,7 +92,7 @@ export default function CVTemplate() {
         
         <div ref={cvRef} className="bg-white shadow-2xl rounded-xl overflow-hidden border border-gray-200">
           {/* Header Section */}
-          <div className="bg-gradient-to-r from-blue-800 to-blue-600 text-white p-8 md:p-4 flex flex-col md:flex-row justify-between items-start">
+          <div className="bg-gradient-to-r from-blue-800 to-blue-600 text-white p-4 md:p-2 flex flex-col md:flex-row justify-between items-start">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-bold mb-2">علاء علي أحمد سعد المغربي</h1>
               <p className="text-xl md:text-2xl font-medium mb-6">موزع مواد غذائية محترف</p>
@@ -122,10 +122,9 @@ export default function CVTemplate() {
                     <p className="text-sm text-blue-100">البريد الإلكتروني</p>
                     <p className="font-medium">
                          <a
-                    href="mailto:gamalam5060@gmail.com"
+                    href="mailto:alaali1999p@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors">
-                    gamalam5060@gmail.com
-                  </a>
+alaali1999p@gmail.com                  </a>
                     </p>
                   </div>
                 </div>
@@ -143,9 +142,9 @@ export default function CVTemplate() {
             </div>
             
             <div className="mt-6 md:mt-0 md:ml-8">
-              <div className="w-32 h-32 rounded-full border-4 border-white/80 overflow-hidden shadow-lg">
+              <div className="w-32 h-42 rounded-full border-4 border-white/80 overflow-hidden shadow-lg">
                 <img 
-                  src="https://scontent.fsah2-1.fna.fbcdn.net/v/t39.30808-6/491659991_1034160082145464_7790836342947285035_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5yIsUZ-q1joQ7kNvwH-1Alz&_nc_oc=Adm2rUukcuz67XmKSvWum16T7pn8vnTvhyz1QWKIPO_ui9dDv8qe-kinun6tgf3VCN0&_nc_zt=23&_nc_ht=scontent.fsah2-1.fna&_nc_gid=7OCPSaFy6Y-R4x4OMg3UBg&oh=00_AfMQVy5p1N5bdRPEjzmIMBllmFppgLfUyDIQljLdsI_-sw&oe=68665A34" 
+                  src="src\assets\-5983407545689163919_121.jpg" 
                   alt="علاء المغربي"
                   className="w-full h-full object-cover"
                 />
@@ -258,7 +257,7 @@ export default function CVTemplate() {
                 </div>
               </section> */}
                 {/* الشهادات */}
-            <section>
+            {/* <section>
               <h2 className="text-2xl font-bold text-blue-800 mb-6 flex items-center">
                 <span className="bg-blue-100 p-2 rounded-full mr-3">
                   <CheckCircle className="text-blue-600" />
@@ -274,7 +273,7 @@ export default function CVTemplate() {
                   </div>
                 ))}
               </div>
-            </section>
+            </section> */}
               
               {/* Languages */}
               <section>

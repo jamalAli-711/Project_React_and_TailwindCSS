@@ -10,7 +10,7 @@ const navItems = [
   { name: "Skills", href: "skills" },
   { name: "Projects", href: "projects" },
   { name: "Contact", href: "Contact" },
-  { name: "cvi", href: "cvi" },
+  { name: "cv", href: "cvi" },
 ];
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
