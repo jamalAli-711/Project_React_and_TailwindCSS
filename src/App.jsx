@@ -22,7 +22,7 @@ function App() {
     <Route  path="/skills" element={<SkillsSection/>} />
     <Route  path="/projects" element={<ProjectsSection/>} />
     <Route  path="/contact" element={<ContactSection/>} />
-    <Route  path="/cvi" element={<CVTemplate/>} />
+    <Route  path="/cv" element={<CVTemplate/>} />
     {/* <Route path="*" element={NotFound}/> */}
    </Routes>
    <Footer/>
